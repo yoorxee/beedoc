@@ -13,6 +13,11 @@ bee 工具是一个为了协助快速开发 beego 项目而创建的项目，通
 
 	go get github.com/beego/bee
 
+
+go get github.com/beego/bee
+go: github.com/derekparker/delve@v1.3.1: parsing go.mod: unexpected module path "github.com/go-delve/delve"
+go: error loading module requirements
+
 安装完之后，`bee` 可执行文件默认存放在 `$GOPATH/bin` 里面，所以您需要把 `$GOPATH/bin` 添加到您的环境变量中，才可以进行下一步。
 
 >>> 如何添加环境变量，请自行搜索
